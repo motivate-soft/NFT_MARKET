@@ -1,0 +1,25 @@
+#List h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+}
+
+#list-inputs {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 100px;
+}
+
+.input-text {
+    margin-bottom: 20px;
+}

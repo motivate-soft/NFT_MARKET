@@ -1,0 +1,56 @@
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-body h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+}
+
+.main-body .image-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 278px;
+    width: 358px;
+    padding: 4px;
+    cursor: pointer;
+    border: 3px dashed rgb(204, 204, 204);
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-body .image-upload .close-button {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 5px;
+    right: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.main-body .file-supported {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+model-viewer{
+    width:350px;
+    height:270px;
+}
+
+model-modelviewerelement{
+    width:350px;
+    height:270px;
+}
